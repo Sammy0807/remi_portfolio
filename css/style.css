@@ -12,13 +12,18 @@ body {
   font-family: "Exo", sans-serif;
   font-weight: 100;
 }
+.trump div:not(:last-child) {
+  margin-right: 2px;
+}
 .cont-slider {
   position: relative;
+  top: -60px;
+  left: 0;
   height: 100vh;
   max-height: 100vh;
   width: auto;
   min-width: 100vw;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   overflow: hidden;
 }
 .slider {
@@ -58,18 +63,23 @@ body {
 }
 .one {
   background-image: url(../img/background.jpeg);
+  top: 0 !important;
 }
 .two {
-  background-image: url(../img/IMG_6532.jpg);
+  background-image: url(../img/IMG_6316.jpg);
+  top: 0 !important;
 }
 .three {
-  background-image: url(../img/IMG_6491.jpg);
+  background-image: url(../img/tab-img.jpeg);
+  top: 0 !important;
 }
 .four {
   background-image: url(../img/IMG_6054.jpg);
+  top: 0 !important;
 }
 .five {
   background-image: url(../img/IMG_6316.jpg);
+  top: 0 !important;
 }
 
 @keyframes sliding {
